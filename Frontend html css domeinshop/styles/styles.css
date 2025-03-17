@@ -1,0 +1,209 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////
+    1. Global Styles
+    /*grijs #899CA0*/
+/*#1C2B32*/
+/*///////////////////////*/
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+
+/*///////////// 3.1 Header /////////////*/
+header {
+    background-image: url("/assets/images/mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    place-content: center;
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    position: relative;
+}
+
+.container-domein{
+    height: 100%;
+    padding-top: 3%;
+}
+
+.titel{
+    font-weight: bold;
+    font-size: 80px;
+    color: #1A2930;
+}
+
+.domein{
+    padding: 15px 25px;
+    width:20%;
+    border-radius: 5em 0 0 5em;
+    background: none;
+    border: 3px solid #1A2930;
+}
+
+.domein::placeholder{
+    color: #1A2930;
+}
+
+.button-domein{
+    padding: 15px;
+    border-radius: 0 5em 5em 0;
+    background-color: #1A2930;
+    color: white;
+    border: 3px solid #1A2930;
+}
+
+.description-domein{
+    color: #1A2930;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.form-search-domein{
+    display: flex;
+    justify-content: center;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+.testimonials {
+    width: 65%;
+    margin: 5% auto;
+    text-align: center;
+}
+.testimonials div {
+    background: white;
+    padding: 4% 7%;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    text-align: left;
+}
+cite {
+    font-size: 16px;
+    color: #333;
+    display: block;
+}
+
+.testimonials p{
+    display: flex;
+}
+
+.testimonials h2{
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.testimonials img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/*///////////// 3.3 Support /////////////*/
+
+
+.callcenter {
+    width: 65%;
+    margin: 5% auto;
+    text-align: left;
+}
+
+.callcenter h2{
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.callcenter img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.callcenter p {
+    font-size: 16px;
+    color: #555;
+}
+.callcenter a {
+    color: #555;
+}
+.callcenter button {
+    background-color: #1A2930;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/*///////////// 3.4 Faq /////////////*/
+
+.faq {
+    width: 65%;
+    margin: 5% auto;
+    text-align: left;
+}
+
+.faq h2{
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.faq details {
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+.faq summary {
+    cursor: pointer;
+}
+.faq .details-content {
+    margin-top: 10px;
+    padding: 3%;
+    background-color: #678B9A;
+    color: white;
+    border-radius: 1em;
+}
+
+/*///////////// 3.5 Footer /////////////*/
+
+footer{
+    background-color: #1A2930;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
